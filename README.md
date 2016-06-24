@@ -23,3 +23,9 @@ form `#include <ptypes.h>` to `#include "ptypes.h"`.
 
 When importing a new bundled version of plibsys, make sure these
 changes are reflected in the commited version.
+
+## License
+
+Notice that plibsys is released under the terms of GNU LGPLv2 or higher license,
+and this crate statically links to that library. As such, using this crate will
+have license implications.
