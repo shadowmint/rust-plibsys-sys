@@ -1,0 +1,20 @@
+[package]
+name = "plibsys-sys"
+version = "0.1.0"
+links = "plibsys"
+build = "build.rs"
+authors = ["Douglas Linder <douglas.linder@gmail.com>"]
+
+[lib]
+name = "plibsys_sys"
+path = "src/lib.rs"
+
+[[test]]
+name = "test-external-link"
+path = "tests/external_link.rs"
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+cmake = "0.1"
